@@ -76,7 +76,7 @@ if (weight <30){<br>
 
 // var weight = 20;<br>
 if (weight <20){<br>
-    console.log("i will carry it"); // aeta true hobe na , karon 20 to 20 er soman na.<br>
+    console.log("i will carry it"); // aeta true hobe na , karon 20 to 20 er choto na.<br>
 }else{<br>
     console.log("i will rent a rickshaw"); // karon 20 er 20 er choto noi tai jehoto upore true condition<br> e jai nai , tai aeta nice jabe .<br>
 }<br>
