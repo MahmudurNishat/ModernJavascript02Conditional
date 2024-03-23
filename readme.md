@@ -201,7 +201,7 @@ if ( (salary >20000 || hasCar == true) && isBcs == true){<br>
     console.log("onno patro khuji");<br>
 }
 
-/// = (equal means variable value set , == means comparing )<br>
+/// = (equal means variable value set ), == means comparing two variable<br>
 
         Know the Js Multiple Condition Logical Operators <End>
 =======================================================================
