@@ -46,3 +46,41 @@ console.log(10 !== "10"); // output : true , karon se aekane value first e check
         Know the Js comparison operator  <End>
 =================================================
 
+        Know the Js If else condition <start>
+============================================        
+// * structure /// <br>
+
+if (condition){<br>
+    console.log() // jodi condition true hoi <br>
+}else{<br>
+    console.log() // josi false hoi taile<br>
+}
+==============================
+// if else basic //<br>
+
+//if (10>7){<br>
+    console.log("I will be software Engineer.") // jodi condition true hoi taile bitore dokbe .. naile<br> baire jabe<br>
+}else{<br>
+    console.log(" it will happen , InsaAllah") /// jodi condition false hoi .<br>
+}<br>
+
+
+// vairable if else<br>
+
+var weight = 50;<br>
+if (weight <30){<br>
+    console.log("i will carry it");<br>
+}else{<br>
+    console.log("i will rent a rickshaw");<br>
+}<br>
+
+// var weight = 20;<br>
+if (weight <20){<br>
+    console.log("i will carry it"); // aeta true hobe na , karon 20 to 20 er soman na.<br>
+}else{<br>
+    console.log("i will rent a rickshaw"); // karon 20 er 20 er choto noi tai jehoto upore true condition<br> e jai nai , tai aeta nice jabe .<br>
+}<br>
+
+
+        Know the Js If else condition <End>
+=================================================
