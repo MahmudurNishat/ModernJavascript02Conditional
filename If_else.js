@@ -9,7 +9,7 @@ if (condition){
     console.log() // josi false hoi taile
 }
 
-if else basic //
+//if else basic //
 
 if (10>7){
     console.log("I will be software Engineer.") // jodi condition true hoi taile bitore dokbe .. naile baire jabe 
