@@ -354,3 +354,42 @@ console.log("you can eat freee");<br>
 =======================================================================
 
 
+      Know the Nested js & Exercise <Start>
+=======================================================================
+
+const money = -10;<br>
+
+if (money >300 ){<br>
+    console.log("you are boro loks.");<br>
+}else{ <br>
+    if ( money >200){ // nested if else  // jodi aeta na hoi , taile onnota , nested<br>
+        console.log("foocka ka");<br>
+    }else{<br>
+        if(money>100){<br>
+            console.log("jal muri ka ");<br>
+        }else{<br>
+            if(money>0){<br>
+                console.log("kola ka");<br>
+            }else{<br>
+                console.log("tui amr bondu na");<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Know the Nested js & Exercise <End>
+=======================================================================
+
+
