@@ -580,3 +580,144 @@ console.log(userId) // EXPECTED OUTPUT : 10 ; TAR MANE USER ASE<br>
 --------------------------------------------------------------------------------------------
      Know the Advanced Logical Not Operator & Exercise <End>
 =======================================================================
+
+
+     Exercise All Task  <Start>
+=======================================================================
+
+-------------------------------------------------------------------
+// Task 1 : Free drink <br>
+<br>
+let BargarPrice = 501;<br>
+<br>
+if (BargarPrice > 500){<br>
+    console.log(" Enjoy your FRee coke ");<br>
+}else {<br>
+    console.log("coke price 30tk");<br>
+}<br>
+<br>
+// Task 1 : Free drink<br>
+
+-------------------------------------------------------------------
+
+/// Task 2 : BMI Calculator<br>
+
+const weightKg = 70;<br>
+const heightM = 1.75;<br>
+
+const bmi = weightKg /(heightM*heightM);<br>
+
+if ( bmi < 18.5){<br>
+    console.log("you are underWeight");<br>
+}else if( bmi >=18.5 && bmi <= 24.9) {<br>
+    console.log("you are normal");<br>
+<br>
+}else if ( bmi >= 25 && bmi <= 29.9){<br>
+    console.log("you are overweight")<br>
+}else {<br>
+    console.log("you are obese");<br>
+}<br>
+
+/// Task 2 : BMI Calculator<br>
+
+-------------------------------------------------------------------
+
+/// Task 3 : Grading System <br>
+
+let Score = 105;<br>
+
+if (Score >=90 && Score <= 100){<br>
+    console.log("you have got A");<br>
+}else if(Score >=80 && Score <= 89){<br>
+    console.log("you have got B");<br>
+}else if(Score >=70 && Score <= 79){<br>
+    console.log("you have got c");<br>
+}else if(Score >=60 && Score <= 69){<br>
+    console.log("you have got d");<br>
+}else if(Score >=0 && Score <= 59){<br>
+    console.log("you have got F");<br>
+}<br>
+else {<br>
+    console.log("Invalid Number");<br>
+}<br>
+
+/// Task 3 : Grading System <br>
+
+-------------------------------------------------------------------
+
+// Task 4 : Tarnary number <br>
+
+basic if else <br>
+let num1 = 5;<br>
+let num2 = 3;<br>
+let result;<br>
+if (num1>num2){<br>
+    result = 2*num1;<br>
+    console.log(result);<br>
+}else {<br>
+    result = num1 + num2;<br>
+    console.log(result);<br>
+}<br>
+<br>
+/// now var_tarnery <br>
+let num1 = 1;<br>
+let num2 = 3;<br>
+let result;<br>
+//var = condition ? if : else;<br>
+result = num1 > num2 ? (2*num1) : (num1+num2)<br>
+console.log(result);<br>
+<br>
+// Task 4 : Tarnary number <br>
+-------------------------------------------------------------------
+
+
+/// Task 5 : friend score nested :<br>
+
+let MyScore = 70;<br>
+let FriendScore = 69<br>
+
+if ( MyScore >80){<br>
+if(FriendScore >= 80){<br>
+    console.log("go for launch");<br>
+}else if (FriendScore <80  && FriendScore >=60) {<br>
+console.log("good luck next time.");<br>
+}else if (FriendScore <60  && FriendScore >=40){<br>
+    console.log("keep your friend's message unseen");<br>
+}else if ( FriendScore < 40){<br>
+    console.log("block your friend");<br>
+}<br>
+}else {<br>
+    console.log("go to home and sleep and act sad");<br>
+}<br>
+/// Task 5 : friend score nested :<br>
+
+-------------------------------------------------------------------
+
+/// Task 6 : Ticket fare Calculator :<br>
+
+let ticketPrice = 500;<br>
+let age = 8;<br>
+
+if (age < 10){<br>
+    ticketPrice = 0;<br>
+    console.log(ticketPrice);<br>
+}else if (age >=10 && age <= 24){<br>
+    // 50% discount<br>
+    let discount = ticketPrice * (50/100);<br>
+    let payprice = ticketPrice - discount;<br>
+    console.log(payprice);<br>
+}else if(age >=60){<br>
+    // 15% discount<br>
+    let discount = ticketPrice * (15/100);<br>
+    let payprice = ticketPrice - discount;<br>
+    console.log(payprice);<br>
+}<br>
+else{
+    ticketPrice = 800;<br>
+    console.log(ticketPrice);<br>
+}<br>
+
+/// Task 6 : Ticket fare Calculator :<br>
+
+     Exercise All Task  <End>
+=======================================================================
