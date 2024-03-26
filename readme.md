@@ -493,3 +493,90 @@ console.log(price);<br>
 
      Know the ternary operator & Exercise <End>
 =======================================================================
+
+
+
+
+     Know the Advanced Logical Not Operator & Exercise <Start>
+=======================================================================
+
+-----------------------------------------------------------------------
+// basic example<br>
+const isLeader = false;<br>
+
+if (isLeader){   // jodi kono bulian value thake taile arr check er dorkar nai , karon ae man set kore<br> disi je isleader = true , tar mane jodi true hoi taile e if clause e dokkbe , taile value kono dorkar nai,<br>
+// if er clause Always positive<br>
+// isleader true hole bitore<br>
+// isleader false hole else e<br>
+    console.log("chair e bosen");<br>
+}else{<br>
+    console.log("dore gea morr");<br>
+}<br>
+
+-----------------------------------------------------------------------
+
+// Advanced not logical operator<br>
+
+const isPassed = true;<br>
+
+if(!isPassed ){<br>
+    console.log("misty kababmo"); /// jodi varibale er age not operator jodi use kori taile<br>
+    // it automatically change its value<br>
+    //  ispassed = false , !ispassed = true , taile rules aager tai thaktese<br>
+    /// Advanced logical not operator value ta ke change korse ,<br>
+    /// ekon man jodi true hoi taile if e<br>
+    /// false hoi taile else e<br>
+}else {<br>
+    console.log("toke biya dia dimu ");<br>
+
+}<br>
+
+//output : toke biya dia dimu<br>
+
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+
+// Advance double not logical operator<br>
+
+//false , !false = true , !!false = false  vice versa.<br>
+// empty string value Always False , "" = False !"" = true;<br>
+
+------------------------------------------------------------------------------------
+// Toggling booliean value ,<br>
+
+let isChampion = true;<br>
+isChampion = !isChampion; // value ke change kora<br>
+console.log(isChampion);<br>
+
+---------------------------------------------------------------------------------------
+/// Falsy value<br>
+/// Falsy values in JavaScript include false, 0, "" (empty string), null, undefined, and NaN.<br>
+<br>
+let inputValue = null;<br>
+
+if (!inputValue) {<br>
+  // null by default false , kintu jokon er age not dicci se true korce , taile koi jabe if e jabe<br>
+  console.log("iput value is falsy");<br>
+}<br>
+
+--------------------------------------------------------------------------------------------
+/// Truthy value ;<br>
+
+let userInput = "somevalue" // string e kicu thakle seta true hoi<br>
+if (!userInput){ // bakita bozar chesta koro<br>
+    console.log("user Input is empty");<br>
+}else{ // <br>
+    console.log("userIput is " + userInput);<br>
+}<br>
+
+--------------------------------------------------------------------------------------------
+/// double bang operator !! double bang operator <br>
+
+let userId = 10;<br>
+console.log(!!userId) // EXPECTED OUTPUT : TRUE ; TAR MANE USER ASE<br>
+console.log(!userId) // EXPECTED OUTPUT : False ; TAR MANE USER nai<br>
+console.log(userId) // EXPECTED OUTPUT : 10 ; TAR MANE USER ASE<br>
+
+--------------------------------------------------------------------------------------------
+     Know the Advanced Logical Not Operator & Exercise <End>
+=======================================================================
