@@ -587,6 +587,13 @@ console.log(userId) // EXPECTED OUTPUT : 10 ; TAR MANE USER ASE<br>
 
 -------------------------------------------------------------------
 // Task 1 : Free drink <br>
+/*** <br>
+
+Free Drinks<br>
+    - Burger more than 500tk: free Coke<br>
+    - Else Coke: 30tk<br>
+*/<br>
+
 <br>
 let BargarPrice = 501;<br>
 <br>
@@ -601,6 +608,16 @@ if (BargarPrice > 500){<br>
 -------------------------------------------------------------------
 
 /// Task 2 : BMI Calculator<br>
+
+BMI Calculator and Health Category<br>
+
+Create a JavaScript program that calculates the Body Mass Index (BMI) and assigns a health category based<br> on the BMI value. Use nested if-else statements to determine the health category.<br>
+
+- Calculate BMI using the formula: BMI = weight (kg) / (height (m))^2 <br>
+- BMI < 18.5, you are underweight.<br>
+- BMI >= 18.5 and BMI <=24.9, you are normal.<br>
+ - BMI >=25 and BMI <= 29.9, you are overweight.<br>
+- Otherwise, you are obese.<br>
 
 const weightKg = 70;<br>
 const heightM = 1.75;<br>
@@ -623,6 +640,19 @@ if ( bmi < 18.5){<br>
 -------------------------------------------------------------------
 
 /// Task 3 : Grading System <br>
+/***<br>
+
+Grade Calculator<br>
+
+Create a simple JavaScript program that takes a student's score as input and returns their corresponding<br> grade based on the following grading scale:<br>
+
+A: 90-100<br>
+B: 80-89<br>
+C: 70-79<br>
+D: 60-69<br>
+F: 0-59<br>
+
+***/<br>
 
 let Score = 105;<br>
 
@@ -646,6 +676,18 @@ else {<br>
 -------------------------------------------------------------------
 
 // Task 4 : Tarnary number <br>
+/***<br>
+
+you have two numbers in two variables, called: num1, num2<br>
+
+now declare a variable called result. <br>
+if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable <br>result will be the sum of num1 and num2.<br>
+<br>
+write a simple if-else. <br>
+
+also, write it using ternary operator.<br>
+
+ */<br>
 
 basic if else <br>
 let num1 = 5;<br>
@@ -672,6 +714,18 @@ console.log(result);<br>
 
 
 /// Task 5 : friend score nested :<br>
+/***<br>
+
+if you get more then 80 then inside your friend score. <br>
+    If your friend get more than 80. then go for a lunch. <br>
+    if your friend get below 80 but greater than or equal 60 then tell your friend, good luck next time.<br> 
+    if your friend get less than 60 but more than or equal to 40 then, keep your friend's message unseen.<br>
+    if your friend get less than 40, block your friend<br>
+if you get less than 80 go to home and sleep and act sad<br>
+
+Note: <br>
+use nested if-else-if-else<br>
+*/<br>
 
 let MyScore = 70;<br>
 let FriendScore = 69<br>
@@ -694,7 +748,15 @@ console.log("good luck next time.");<br>
 -------------------------------------------------------------------
 
 /// Task 6 : Ticket fare Calculator :<br>
-
+/***<br>
+<br>
+Ticket fare Calculator<br>
+    - Children (age < 10): free<br>
+    - Students get a 50% discount<br>
+    - Senior citizens (age >= 60) gets a 15% Discount<br>
+    - Otherwise Regular ticket fare 800 tk<br>
+*/<br>
+<br>
 let ticketPrice = 500;<br>
 let age = 8;<br>
 
