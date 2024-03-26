@@ -386,14 +386,110 @@ if (money >300 ){<br>
 
 
 
-
-
-
-
-
-
-
      Know the Nested js & Exercise <End>
 =======================================================================
 
+     Know the ternary operator & Exercise <Start>
+=======================================================================
 
+// Ternary operator --- means Three condition <br>
+
+// Ternary structure<br>
+
+//condition ? when it is true , it shows the message (if)  :  when it is false,it shows the message(else)<br>
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+// basic if else ;<br>
+
+--------------------------------------------
+// 1  basic ta <br>
+const age = 15;<br>
+
+if ( age >=18){<br>
+    console.log("you can vote ");<br>
+}else {<br>
+    console.log("you cannot vote");<br>
+}<br>
+
+--------------------------------------------
+// 1 tarnary part <br>
+
+const age = 15;<br>
+age >=18 ? console.log("you can vote"):console.log("you cannot vote");<br>
+
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+
+
+/// 2 variableIfElse<br>
+
+--------------------------------------------
+let price = 500;<br>
+const isLeader = false;<br>
+
+if ( isLeader === true){<br>
+    price = 0;<br>
+    console.log(price);<br>
+}else {<br>
+    price = price + 100<br>
+    console.log(price);<br>
+}<br>
+
+--------------------------------------------
+/// then make it ternary <br>
+
+
+// 2 ternarVariableIfelse <br>
+
+let price = 500;<br>
+const isLeader = true;<br>
+
+// variable = condtion ? true , message : false message <br>
+price = isLeader === true ? 0 : price + 100;<br>
+console.log(price)<br>
+
+--------------------------------------------
+--------------------------------------------
+// 3 semi advance ternary js and basic if else ///<br>
+// 3 basic if else <br>
+
+let price = 500;<br>
+const isLeader = false; <br>
+
+if (isLeader === true){ /// leader er jonno <br>
+    if(price > 1000){ /// jodi price 1000 er besi hoi taile 50%<br>
+        // 50% discount <br>
+        price = price / 2;<br>
+        console.log(price);  <br>
+// ternary <br>
+// condition ? if : else <br>
+ //price > 1000 ? price / 2 : 0<br>
+
+}else{ /// jodi ta na hoi taile price 0 diba<br>
+        price = 0<br>
+        console.log(price);<br>
+}<br>
+
+}else{ <br>
+    price = price + 100; // mango people er jonno <br>
+    console.log(price);<br>
+}
+
+/// use this in ternary /// <br>
+
+// * use simple var ternary first<br>
+
+//varName = condition ? if : else<br>
+let price = 200;<br>
+const isLeader = true;<br>
+// price = isLeader === true ?  0 : price + 100 // simple ta and then 1st if clause er ternary ready koren .<br>
+// * then use semi advance ternary <br>
+// price > 1000 ? price / 2 : if clause ternary then <br>
+price = isLeader === true ?  price > 1000 ? price / 2 : 0 : price + 100<br>
+console.log(price);<br>
+
+     Know the ternary operator & Exercise <End>
+=======================================================================
